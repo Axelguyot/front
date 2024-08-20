@@ -5,6 +5,7 @@ import { Login } from "./components/Login";
 import { Signup } from "./components/Signup";
 import { Aboutus } from "./components/Aboutus";
 import { Features } from './components/Features.jsx';
+import { Cryptocurrency } from './components/Cryptocurrency.jsx';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Route exact path="/signup" element={ <Signup />} />
         <Route exact path="/features" element={ <Features />} />
         <Route exact path="/aboutus" element={ <Aboutus />} />
-        
+        <Route exact path="/cryptocurrency" element={ <Cryptocurrency />} />
+
       </Routes>
 
       

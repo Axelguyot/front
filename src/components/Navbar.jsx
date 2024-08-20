@@ -21,7 +21,8 @@ export const Navbar = () => {
           <Nav className="me-auto">
             <Nav.Link href="/features">Features</Nav.Link>
             <Nav.Link href="/aboutus">About us</Nav.Link>
-            
+            <Nav.Link href="/cryptocurrency">Cryptocurrency</Nav.Link>
+
           </Nav>
           <Nav className='d-flex justify-content-center align-items-center gap-3'>
             <Nav.Link href="/login" className='white-bold-text'>Log in</Nav.Link>

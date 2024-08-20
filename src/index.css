@@ -102,7 +102,7 @@ p {
 }
 
 .full-screen-background { 
-  background-image: url('images/background-general.png');
+  background-image: url('images/fondovioleta.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,6 +116,19 @@ p {
 
 .aboutus-background { 
   background-image: url('images/white-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cryptocurrencies-background { 
+  background-image: url('images/sandabstract.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
